@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&display=swap');
+
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   position: relative;
+   width: 100vw;
+   height: 100vh;
+}
+
+.grid{
+   width: 560px;
+   height: 560px;
+   display: flex;
+   flex-wrap: wrap;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.grid div{
+   width: 70px;
+   height: 70px;
+   border: 5px solid #fff;
+   border-radius: 10px;
+}
+
+.score-board{
+   position: absolute;
+   top: 50%;
+   left: 100px;
+   transform: translate(-50%, -50%);
+   border: 3px solid #ccc;
+   border-radius: 2rem;
+   text-align: center;
+   padding: 1.5rem 3rem;
+   color: rgb(41, 41, 41);
+}
+
+.game-title h1{
+   font-family: 'Kavoon', cursive;
+   font-size: 3rem;
+   color: orangered;
+   text-shadow: 3px 3px 3px #ccc;
+}
